@@ -2,8 +2,8 @@ import { ApiProperty } from '@nestjs/swagger';
 
 export class CreateStadiumDto {
   @ApiProperty()
-  name: string;
+  name!: string;
 
   @ApiProperty()
-  location: string;
+  location!: string;
 }

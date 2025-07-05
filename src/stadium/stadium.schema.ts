@@ -4,10 +4,10 @@ import { Document } from 'mongoose';
 @Schema()
 export class Stadium {
   @Prop({ required: true })
-  name: string;
+  name!: string;
 
   @Prop()
-  location: string;
+  location!: string;
 }
 
 export type StadiumDocument = Stadium & Document;
