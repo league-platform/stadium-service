@@ -2,7 +2,8 @@
   "name": "stadium-service",
   "version": "1.0.0",
   "scripts": {
-    "start": "nest start"
+    "start": "nest start",
+    "build": "nest build"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
